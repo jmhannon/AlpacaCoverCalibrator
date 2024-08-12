@@ -1,0 +1,2 @@
+curl -X GET "http://192.168.1.166/api/v1/covercalibrator/0/brightness?ClientID=1&ClientTransactionID=1234" -H "accept: application/json"
+curl -X PUT "http://192.168.1.166/api/v1/covercalibrator/0/calibratoron" -H "accept: application/json" -H "Content-Type: application/x-www-form-urlencoded" -d "ClientID=1&ClientTransactionID=1234&Brightness=20"
